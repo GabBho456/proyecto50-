@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="style.css.css">
+</head>
+<body>
+    <div class="main-content">
+    <script>
+    setTimeout(() => {
+      document.getElementById('stayAlert').classList.remove('hidden');
+      document.getElementById('stayAlert').classList.add('show');
+    }, 20000);
+    window.addEventListener('load', () => {
+      document.body.classList.add('animate-entry');
+    });
+  </script>
+
+    <div class="fondo-especial">
+    <div class="wrapper">
+    <main>
+  <h1>¿Tienes una pregunta??
+    
+  </h1>
+<h2>¡Hablemos!</h2>
+  <div class="form-container">
+    <h2>Formulario de contacto</h2>
+    <p>Escríbenos y en breve nos pondremos en contacto contigo</p>
+    <form>
+      <label for="nombre">Nombre <span class="required"></span></label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+      <label for="email">Email <span class="required"></span></label>
+      <input type="email" id="email" name="email" placeholder="Escribe tu Email" required>
+
+      <a href="gracias.html" class="btn-salir">Enviar</a>
+    </form>
+    <a href="index.html" class="btn-salir">Salir</a>
+  </div>
+  </main>
+
+  </div>
+  </div>
+  <div class="social-buttons">
+  <a href="https://www.instagram.com/ithinstaoficial/" target="_blank" class="social-btn">
+    <img src="https://th.bing.com/th/id/R.57e3e076a3eebb2b667d325b425e717a?rik=uHVdR7Kz%2bpTxVw&pid=ImgRaw&r=0" alt="Instagram" class="icono-red">
+  </a>
+  <a href="https://web.facebook.com/institutotecnicohonduras.hn/?_rdc=1&_rdr#" target="_blank" class="social-btn">
+    <img src="https://th.bing.com/th/id/R.9a6bcdb7893f064a8a549901917a6414?rik=705dUt%2fMqBSgNg&pid=ImgRaw&r=0" alt="Facebook" class="icono-red">
+  </a>
+</div>
+</body>
+</html>

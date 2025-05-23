@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Informativo</title>
+  <link rel="stylesheet" href="style.css.css" />
+</head>
+<body>
+  <script>
+    setTimeout(() => {
+      document.getElementById('stayAlert').classList.remove('hidden');
+      document.getElementById('stayAlert').classList.add('show');
+    }, 20000);
+    window.addEventListener('load', () => {
+      document.body.classList.add('animate-entry');
+    });
+  </script>
+<!-- Menú superior -->
+ 
+  <nav class="menu-superior">
+    
+    <ul>
+      
+      <li class="dropdown">
+        <a href="#">Atras</a>
+        <ul class="submenu">
+         <li><a href="index.html">Inicio</a></li>
+        <li><a href="logros.html">Logros</a></li>
+        <li><a href="inventos.html">Inventos</a></li>
+        <li><a href="Iglesia.html">Iglesia</a></li>
+        <li><a href="revolucion.html">Revolucion</a></li>
+        <li><a href="legado.html">Legado</a></li>
+        <li class="highlight"><a href="teoria.html">UNA LISTA???!</a></li>
+        </ul>
+       
+      </li>
+      <li class="dropdown">
+        <a href="#">Datos curiosos</a>
+        <ul class="submenu">
+          <li><a href="lista.html">FUUUUUUA! Que buenos datos.</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#">Mapas</a>
+        <ul class="submenu">
+          <li><a href="luna.html">La luna</a></li>
+          <li><a href="telescopio.html">El telescopio</a></li>
+          <li><a href="ultimo.html">Observaciones</a></li>
+        </ul>
+        
+      </li>
+     <div class="top-logo">
+      <img src="VID/logo.png" alt="Logo Galileo" class="logo-img"> 
+  </div>
+    </ul>
+  </nav>
+  <marquee>Aqui tenemos unos datos curiosos de Galileo Galilei</marquee>
+  <!-- Panel de noticias tipo Microsoft -->
+  <section class="panel-noticias">
+   <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.O4Sgp21J2AZxz5wUP6dgjgHaEJ?cb=iwp2&rs=1&pid=ImgDetMain" alt="Retrato de Galileo Galilei">
+    <h3>Retrato de Galileo Galilei</h3>
+    <p>→ Pintura de Justus Sustermans realizada en 1636.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.mB7XaMVJbbeMWf4TG4Ev5gHaEK?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Fue profesor en la Universidad de Padua</h3>
+    <p>→ Allí enseñó matemáticas y realizó muchos de sus descubrimientos.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.OYk0hVofYLuctvg6yeP3fwAAAA?cb=iwp2&w=120&h=120&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Estudió medicina antes de dedicarse a las matemáticas</h3>
+    <p>→ Abandonó medicina porque prefería la precisión matemática.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.rkvLY2DXFKM7Dtezlxuv-gHaEK?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Murió en 1642</h3>
+    <p>→ El mismo año en que nació Isaac Newton, quien continuaría su legado.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th?id=OIF.KBKMs8YKJrDtpZfLf%2fKRfg&cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Desarrolló la ley del péndulo</h3>
+    <p>→ Observó una lámpara oscilando en una catedral, dando origen a sus estudios.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://astrosigma.com/images/biografias/Galileo-Galilei-600.jpg" alt="Noticia">
+    <h3>Fue puesto bajo arresto domiciliario</h3>
+    <p>→ Como castigo por sus ideas, pasó el resto de su vida encerrado en casa.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.b-Zje_37GOFR4PjW_OShrQHaEK?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Perdió la vista en sus últimos años</h3>
+    <p>→ Siguió trabajando a pesar de quedar ciego hacia el final de su vida.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://storage.googleapis.com/stateless-chematierra-mx/2022/02/galileo-scaled.jpeg" alt="Noticia">
+    <h3>Inspiró el método científico moderno</h3>
+    <p>→ Combinó observación, experimentación y razonamiento matemático.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.mB7XaMVJbbeMWf4TG4Ev5gHaEK?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Su obra más famosa es "Diálogo sobre los dos sistemas del mundo"</h3>
+    <p>→ Fue el texto que lo llevó ante la Inquisición.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.rkvLY2DXFKM7Dtezlxuv-gHaEK?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Fue enterrado en la Basílica de Santa Croce en Florencia</h3>
+    <p>→ Cerca de otras figuras ilustres como Miguel Ángel.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://www.biografiasyvidas.com/monografia/galileo/fotos/galileo_domenico_crespi.jpg" alt="Noticia">
+    <h3>Tuvo tres hijos ilegítimos</h3>
+    <p>→ Dos hijas fueron monjas, una de ellas muy cercana a él.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://leganerd.com/wp-content/uploads/2023/06/galileopianeti.jpg" alt="Noticia">
+    <h3>Su hija Virginia le escribía cartas frecuentemente</h3>
+    <p>→ Muchas se conservan y revelan una relación muy afectiva.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.O4Sgp21J2AZxz5wUP6dgjgHaEJ?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Nombró a los satélites de Júpiter "Estrellas Mediceas"</h3>
+    <p>→ En honor a su mecenas, Cosme II de Médici.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://astrosigma.com/images/biografias/Galileo-Galilei-600.jpg" alt="Noticia">
+    <h3>En 1992, la Iglesia Católica reconoció su error</h3>
+    <p>→ El Papa Juan Pablo II admitió que Galileo tenía razón.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://storage.googleapis.com/stateless-chematierra-mx/2022/02/galileo-scaled.jpeg" alt="Noticia">
+    <h3>Sus manuscritos se estudian aún hoy</h3>
+    <p>→ Han revelado detalles sobre su proceso científico y su pensamiento.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIF.4jWQGbFirtXQjU2L9biSoQ?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Fue admirado por Einstein</h3>
+    <p>→ Lo llamó "el padre de la ciencia moderna".</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://media.slidesgo.com/storage/51678431/galileo-galilei1712664308.jpg" alt="Noticia">
+    <h3>Estudió el movimiento parabólico de proyectiles</h3>
+    <p>→ Esto fue clave para entender el movimiento en dos dimensiones.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.l1s0Tp-jyguaHMwBRPR6ywHaD4?cb=iwp2&w=600&h=315&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Desarrolló teorías precursoras de la inercia</h3>
+    <p>→ Que luego Newton transformaría en la Primera Ley del Movimiento.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://thumbs.dreamstime.com/b/personaje-de-caricatura-galileo-galilei-ilustraci%C3%B3n-244706178.jpg" alt="Noticia">
+    <h3>Estudió los relojes de agua</h3>
+    <p>→ Usados para medir tiempos exactos en sus experimentos de caída libre.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://img.freepik.com/vector-gratis/retrato-galileo-galilei-estilo-dibujos-animados_1308-100022.jpg" alt="Noticia">
+    <h3>Fue caricaturizado por sus enemigos</h3>
+    <p>→ Muchos científicos tradicionales lo ridiculizaban por romper con Aristóteles.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://leganerd.com/wp-content/uploads/2023/06/galileopianeti.jpg" alt="Noticia">
+    <h3>Observó la Vía Láctea como una colección de estrellas</h3>
+    <p>→ Mostró que era una galaxia y no una neblina celestial.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://st.depositphotos.com/1763191/55094/v/450/depositphotos_550947270-stock-illustration-portrait-galileo-galilei-cartoon-style.jpg" alt="Noticia">
+    <h3>Tuvo conflictos con otros científicos</h3>
+    <p>→ Por ejemplo, con Orazio Grassi, sobre la naturaleza de los cometas.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.OYk0hVofYLuctvg6yeP3fwAAAA?cb=iwp2&w=120&h=120&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Rechazó el sistema geocéntrico de Ptolomeo</h3>
+    <p>→ Por considerarlo demasiado complicado y sin pruebas.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://images.ctfassets.net/cnu0m8re1exe/2wyRbvapLJxbGTmgFcSo0b/da119f430c687a7ddf2c502c41961cb1/shutterstock_1438454285.jpg" alt="Noticia">
+    <h3>Publicó sus ideas en italiano y no en latín</h3>
+    <p>→ Así el público general también podía acceder al conocimiento científico.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://storage.googleapis.com/stateless-chematierra-mx/2022/02/galileo-scaled.jpeg" alt="Noticia">
+    <h3>También fue músico y poeta</h3>
+    <p>→ Tocaba el laúd y componía música en su juventud.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIF.4jWQGbFirtXQjU2L9biSoQ?cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Su cráneo fue exhumado para estudios en el siglo XVIII</h3>
+    <p>→ Partes de su cuerpo se exhiben como reliquias científicas.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th?id=OIF.xU5Zwg8Q%2fe6sdaii6fqf2g&cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Fue un gran defensor de la experimentación</h3>
+    <p>→ Para él, no bastaba con pensar, había que comprobar.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th/id/OIP.l1s0Tp-jyguaHMwBRPR6ywHaD4?cb=iwp2&w=600&h=315&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Su nombre está en una de las lunas de Júpiter: Galilea</h3>
+    <p>→ Así se denominan los cuatro satélites que descubrió.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://th.bing.com/th?id=OIF.KBKMs8YKJrDtpZfLf%2fKRfg&cb=iwp2&rs=1&pid=ImgDetMain" alt="Noticia">
+    <h3>Galileo es mencionado en la canción de Queen "Bohemian Rhapsody"</h3>
+    <p>→ “Galileo, Galileo, Figaro...” como símbolo de sabiduría e innovación.</p>
+  </div>
+  <div class="tarjeta">
+    <img src="https://leganerd.com/wp-content/uploads/2023/06/galileopianeti.jpg" alt="Noticia">
+    <h3>Diseñó el primer termoscopio"</h3>
+    <p>→ → Antecesor del termómetro, para medir variaciones de temperatura.</p>
+  </div>
+  </section>
+<footer>
+    <div class="container">
+      <p>&copy; 2025 MiPaginaWeb. Todos los derechos reservados a Gabriel Portillo 🗣️🔥👌.</p>
+    </div>
+  </footer>
+</body>
+</html>

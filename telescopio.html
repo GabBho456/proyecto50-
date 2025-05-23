@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Informativo</title>
+  <link rel="stylesheet" href="style.css.css" />
+</head>
+<body>
+  <script>
+    setTimeout(() => {
+      document.getElementById('stayAlert').classList.remove('hidden');
+      document.getElementById('stayAlert').classList.add('show');
+    }, 20000);
+    window.addEventListener('load', () => {
+      document.body.classList.add('animate-entry');
+    });
+  </script>
+  
+  <nav class="menu-superior">
+    <ul>
+      <li class="dropdown">
+        <a href="#">!!!!!SALIR!!!!!!</a>
+        <ul class="submenu">
+          <li><a href="teoria.html">Inicio</a></li>
+    </ul>
+    
+  </nav>
+
+  <!-- Contenedor con imagen de fondo e información -->
+  <section class="galileo-mapa">
+    <div class="overlay-texto">
+      <h2>Invención y mejora del telescopio:</h2>
+      <p>Aunque Galileo no inventó el telescopio, mejoró el diseño original creado en 1608 por Hans Lippershey. Galileo fabricó telescopios con aumentos de hasta 20x, mucho mayores que los anteriores, lo que le permitió realizar observaciones más detalladas del cielo.</p>
+    </div>
+
+    <div class="info-box superior-izq">
+      <h4>Descubrimiento de las lunas de Júpiter:</h4>
+      <p>En 1610, Galileo observó cuatro lunas que orbitaban alrededor de Júpiter, demostrando que no todos los cuerpos celestes giraban alrededor de la Tierra, como se pensaba, y apoyando la teoría heliocéntrica de Copérnico.</p>
+    </div>
+
+    <div class="info-box inferior-izq">
+      <h4>Fases de Venus:</h4>
+      <p>Galileo descubrió que Venus pasaba por fases similares a las de la Luna, lo que también respaldaba la idea de que los planetas, incluido la Tierra, giraban alrededor del Sol, una idea central en el modelo heliocéntrico.</p>
+    </div>
+
+    <div class="info-box inferior-der">
+      <h4>Las manchas solares:</h4>
+      <p>Galileo fue uno de los primeros en observar las manchas solares en 1610, desafiando la creencia de que los cielos eran inmutables y perfectos. Esto ayudó a cambiar la visión sobre el universo y la naturaleza de las estrellas.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 MiPaginaWeb. Todos los derechos reservados a Gabriel Portillo 🗣️🔥👌.</p>
+    </div>
+  </footer>
+</body>
+</html>
